@@ -81,7 +81,6 @@ jobs:
         uses: ./
       - run: uv sync
         working-directory: __tests__/fixtures/uv-project
-
   test-uvx:
     runs-on: ubuntu-latest
     steps:
